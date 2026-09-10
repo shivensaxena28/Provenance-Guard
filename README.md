@@ -15,6 +15,19 @@ is the worst outcome, so the system is deliberately biased away from that.
 
 ---
 
+## My contribution
+
+Built for **CodePath AI201 (Project 4)**. CodePath supplied the written project
+spec only — the required endpoints, the "two genuinely independent signals"
+constraint, and the four calibration inputs. **Every line of code in this
+repository is mine:** the LLM + stylometry detection pipeline, the
+disagreement-penalized confidence formula and its deliberately asymmetric
+verdict thresholds, the three transparency-label variants, the SQLite
+content/append-only-audit schema, the Flask routes and rate limiter, and the
+offline calibration harness.
+
+---
+
 ## Quick start
 
 ```bash
